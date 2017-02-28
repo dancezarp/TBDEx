@@ -22,3 +22,10 @@ optional&nbsp;arguments:<br />
 &nbsp;&nbsp;-payload&nbsp;limit&nbsp;LIMIT&nbsp;&nbsp;If&nbsp;there&nbsp;is&nbsp;any&nbsp;command&nbsp;length&nbsp;limitation<br />
 &nbsp;&nbsp;-force&nbsp;write&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Force&nbsp;writing&nbsp;auxiliary&nbsp;files<br />
 &nbsp;&nbsp;-tmp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Writing&nbsp;auxiliary&nbsp;files&nbsp;in&nbsp;tmp&nbsp;folder<br />
+
+For this to work pycurl must be installed:
+pip install pycurl
+or
+apt-get install pycurl
+or
+apt-get install python-pycurl
