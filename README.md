@@ -1,24 +1,24 @@
-# TBDEx
-Time Based Data Exfiltration Tool
+#&nbsp;TBDEx
+Time Based Data Exfiltration Tool<br />
 
-usage: timebased.py [-h] [-url URL] [-post POST] [-threads THREADS]
-                    [-cookie COOKIE_FILE] [-file HEADER_FILE] [-retry RETRY]
-                    [-timeout TIMEOUT] [-time AVGTIME] [-os OS]
-                    [-payload_limit LIMIT] [-force_write] [-tmp]
+usage:&nbsp;timebased.py&nbsp;[-h]&nbsp;[-url&nbsp;URL]&nbsp;[-post&nbsp;POST]&nbsp;[-threads&nbsp;THREADS]<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[-cookie&nbsp;COOKIE&nbsp;FILE]&nbsp;[-file&nbsp;HEADER&nbsp;FILE]&nbsp;[-retry&nbsp;RETRY]<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[-timeout&nbsp;TIMEOUT]&nbsp;[-time&nbsp;AVGTIME]&nbsp;[-os&nbsp;OS]<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[-payload&nbsp;limit&nbsp;LIMIT]&nbsp;[-force&nbsp;write]&nbsp;[-tmp]<br />
 
-Time Based Data Exfiltration
+Time Based Data Exfiltration Tool<br />
 
-optional arguments:
-  -h, --help            show this help message and exit
-  -url URL              URL
-  -post POST            POST
-  -threads THREADS      Threads
-  -cookie COOKIE_FILE   Cookie File
-  -file HEADER_FILE     Burp request file
-  -retry RETRY          Retry request N times in case of network errors
-  -timeout TIMEOUT      General timeout request
-  -time AVGTIME         Added timeout to request
-  -os OS                OS type (U unix/linux , W windows)
-  -payload_limit LIMIT  If there is any command length limitation
-  -force_write          Force writing auxiliary files
-  -tmp                  Writing auxiliary files in tmp folder
+optional&nbsp;arguments:<br />
+&nbsp;&nbsp;-h,&nbsp;--help&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;show&nbsp;this&nbsp;help&nbsp;message&nbsp;and&nbsp;exit<br />
+&nbsp;&nbsp;-url&nbsp;URL&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;URL<br />
+&nbsp;&nbsp;-post&nbsp;POST&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;POST<br />
+&nbsp;&nbsp;-threads&nbsp;THREADS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Threads<br />
+&nbsp;&nbsp;-cookie&nbsp;COOKIE&nbsp;FILE&nbsp;&nbsp;&nbsp;Cookie&nbsp;File<br />
+&nbsp;&nbsp;-file&nbsp;HEADER&nbsp;FILE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Burp&nbsp;request&nbsp;file<br />
+&nbsp;&nbsp;-retry&nbsp;RETRY&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Retry&nbsp;request&nbsp;N&nbsp;times&nbsp;in&nbsp;case&nbsp;of&nbsp;network&nbsp;errors<br />
+&nbsp;&nbsp;-timeout&nbsp;TIMEOUT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;General&nbsp;timeout&nbsp;request<br />
+&nbsp;&nbsp;-time&nbsp;AVGTIME&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Added&nbsp;timeout&nbsp;to&nbsp;request<br />
+&nbsp;&nbsp;-os&nbsp;OS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OS&nbsp;type&nbsp;(U&nbsp;unix/linux&nbsp;,&nbsp;W&nbsp;windows)<br />
+&nbsp;&nbsp;-payload&nbsp;limit&nbsp;LIMIT&nbsp;&nbsp;If&nbsp;there&nbsp;is&nbsp;any&nbsp;command&nbsp;length&nbsp;limitation<br />
+&nbsp;&nbsp;-force&nbsp;write&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Force&nbsp;writing&nbsp;auxiliary&nbsp;files<br />
+&nbsp;&nbsp;-tmp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Writing&nbsp;auxiliary&nbsp;files&nbsp;in&nbsp;tmp&nbsp;folder<br />
